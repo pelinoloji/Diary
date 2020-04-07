@@ -1,3 +1,55 @@
+/* @font-face {
+  font-family: "opendyslexic";
+  src: url("http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("http://dyslexicfonts.com/fonts/OpenDyslexic-Italic.ttf");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("http://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("http://dyslexicfonts.com/fonts/OpenDyslexic-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: eulexia;
+  src: url("http://dyslexicfonts.com/fonts/eulexia.ttf");
+} */
+
+* {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #191a42;
+  font-family: opendyslexic !important;
+}
+
+body {
+  background: url("background-whitewall.jpg") center center;
+  background-size: cover;
+  /* color: #4eb392;
+  color: #f45f30; */
+}
+
 h4 {
   margin-left: 20px;
+  color: blueviolet;
+}
+
+li a {
+  color: blue;
 }
