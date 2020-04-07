@@ -40,6 +40,7 @@
 
 body {
   background: url("background-whitewall.jpg") center center;
+  opacity: 0.8;
   background-size: cover;
   /* color: #4eb392;
   color: #f45f30; */
