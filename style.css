@@ -38,17 +38,30 @@
   font-family: opendyslexic !important;
 }
 
-body {
+html {
+  /* background: url("background-whitewall.jpg") center center; */
+  /* background-size: cover; */
+  /* background-color: #4eb392; */
+  display: block;
+  position: relative;
+}
+
+html::after {
+  content: "";
   background: url("background-whitewall.jpg") center center;
-  opacity: 0.8;
   background-size: cover;
-  /* color: #4eb392;
-  color: #f45f30; */
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 h4 {
   margin-left: 20px;
-  color: blueviolet;
+  color: #f45f30;
 }
 
 li a {
