@@ -1,55 +1,21 @@
-/* @font-face {
-  font-family: "opendyslexic";
-  src: url("http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "opendyslexic";
-  src: url("http://dyslexicfonts.com/fonts/OpenDyslexic-Italic.ttf");
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "opendyslexic";
-  src: url("http://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "opendyslexic";
-  src: url("http://dyslexicfonts.com/fonts/OpenDyslexic-BoldItalic.ttf");
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: eulexia;
-  src: url("http://dyslexicfonts.com/fonts/eulexia.ttf");
-} */
-
 * {
   font-size: 1em;
   line-height: 1.5;
   color: #191a42;
-  font-family: opendyslexic !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
   /* background: url("background-whitewall.jpg") center center; */
   /* background-size: cover; */
-  /* background-color: #4eb392; */
   display: block;
   position: relative;
 }
 
 html::after {
   content: "";
-  background: url("background-whitewall.jpg") center center;
-  background-size: cover;
+  background: url("whiteCrumpledPaper.jpg") center center;
+  background-size: contain;
   opacity: 0.4;
   position: absolute;
   z-index: -1;
@@ -58,12 +24,21 @@ html::after {
   bottom: 0;
   right: 0;
 }
+.container li,
+h4 {
+  margin-left: 3%;
+}
 
 h4 {
-  margin-left: 20px;
-  color: #f45f30;
+  color: #4eb392;
+  font-size: large;
 }
 
 li a {
   color: blue;
+}
+
+hr {
+  border-top: 1px dotted #c560ff;
+  opacity: 0.9;
 }
