@@ -1,5 +1,5 @@
 # Diary
 
-Daily routine about coding. You can check [page].
+Daily routine about coding. You can check [here].
 
-[page]: https://pelinoloji.github.io/Diary/
+[here]: https://pelinoloji.github.io/Diary/
